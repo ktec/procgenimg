@@ -11,6 +11,8 @@ class GeneratedImage {
     }
     
     img = createImage(imageWidth, imageHeight, RGB);
+    
+    this.preparePixels();
   }
   
   void preparePixels() {

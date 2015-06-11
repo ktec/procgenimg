@@ -16,6 +16,5 @@ void draw() {
   image(original, 0, 0);
   
   GeneratedImage gen = algorithm.population[0];
-  gen.preparePixels();
   image(gen.img, width / 2, 0);
 }
